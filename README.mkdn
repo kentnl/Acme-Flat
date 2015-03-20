@@ -1,10 +1,16 @@
 # NAME
 
-Acme::Flat - Kent Failed To Provide An Abstract
+Acme::Flat - A Pure Perl reimplementation of B Internals
 
 # VERSION
 
 version 0.001000
+
+# DESCRIPTION
+
+This module is mostly a learning experiment to help me understand the mechanics
+behind perl's `B` internals, and hopefully making more friendly documentation for `B`
+components in the process.
 
 # AUTHOR
 
