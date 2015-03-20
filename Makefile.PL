@@ -7,7 +7,7 @@ use 5.006;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Kent Failed To Provide An Abstract",
+  "ABSTRACT" => "A Pure Perl reimplementation of B Internals",
   "AUTHOR" => "Kent Fredric <kentnl\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -18,7 +18,6 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Acme::Flat",
   "PREREQ_PM" => {
-    "Moose" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -37,7 +36,6 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
-  "Moose" => 0,
   "Test::More" => "0.89",
   "strict" => 0,
   "warnings" => 0

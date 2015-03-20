@@ -1,6 +1,8 @@
 Acme::Flat
 
-
+This module is mostly a learning experiment to help me understand the
+mechanics behind perl's "B" internals, and hopefully making more
+friendly documentation for "B" components in the process.
 
 INSTALLATION
 

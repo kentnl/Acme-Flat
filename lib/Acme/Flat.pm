@@ -6,14 +6,9 @@ package Acme::Flat;
 
 our $VERSION = '0.001000';
 
-# ABSTRACT: Kent Failed To Provide An Abstract
+# ABSTRACT: A Pure Perl reimplementation of B Internals
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
-
-use Moose;
-
-__PACKAGE__->meta->make_immutable;
-no Moose;
 
 1;
 
@@ -25,11 +20,17 @@ __END__
 
 =head1 NAME
 
-Acme::Flat - Kent Failed To Provide An Abstract
+Acme::Flat - A Pure Perl reimplementation of B Internals
 
 =head1 VERSION
 
 version 0.001000
+
+=head1 DESCRIPTION
+
+This module is mostly a learning experiment to help me understand the mechanics
+behind perl's C<B> internals, and hopefully making more friendly documentation for C<B>
+components in the process.
 
 =head1 AUTHOR
 
