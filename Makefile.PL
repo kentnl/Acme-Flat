@@ -18,6 +18,8 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Acme::Flat",
   "PREREQ_PM" => {
+    "Class::Tiny" => 0,
+    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -34,9 +36,11 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Class::Tiny" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "Test::More" => "0.89",
+  "parent" => 0,
   "strict" => 0,
   "warnings" => 0
 );

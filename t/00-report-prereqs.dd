@@ -77,6 +77,8 @@ do { my $x = {
                     },
        'runtime' => {
                       'requires' => {
+                                      'Class::Tiny' => '0',
+                                      'parent' => '0',
                                       'perl' => '5.006',
                                       'strict' => '0',
                                       'warnings' => '0'

@@ -92,6 +92,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Tiny" : "0",
+            "parent" : "0",
             "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
@@ -114,6 +116,66 @@
    "provides" : {
       "Acme::Flat" : {
          "file" : "lib/Acme/Flat.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::AV" : {
+         "file" : "lib/Acme/Flat/AV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::CV" : {
+         "file" : "lib/Acme/Flat/CV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::FM" : {
+         "file" : "lib/Acme/Flat/FM.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::GV" : {
+         "file" : "lib/Acme/Flat/GV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::HV" : {
+         "file" : "lib/Acme/Flat/HV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::IO" : {
+         "file" : "lib/Acme/Flat/IO.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::IV" : {
+         "file" : "lib/Acme/Flat/IV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::NV" : {
+         "file" : "lib/Acme/Flat/NV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::PV" : {
+         "file" : "lib/Acme/Flat/PV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::PVIV" : {
+         "file" : "lib/Acme/Flat/PVIV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::PVLV" : {
+         "file" : "lib/Acme/Flat/PVLV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::PVMG" : {
+         "file" : "lib/Acme/Flat/PVMG.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::PVNV" : {
+         "file" : "lib/Acme/Flat/PVNV.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::REGEXP" : {
+         "file" : "lib/Acme/Flat/REGEXP.pm",
+         "version" : "0.001000"
+      },
+      "Acme::Flat::SV" : {
+         "file" : "lib/Acme/Flat/SV.pm",
          "version" : "0.001000"
       }
    },
@@ -314,7 +376,22 @@
             "config" : {
                "Dist::Zilla::Plugin::Test::Compile::PerFile" : {
                   "file" : [
-                     "lib/Acme/Flat.pm"
+                     "lib/Acme/Flat.pm",
+                     "lib/Acme/Flat/AV.pm",
+                     "lib/Acme/Flat/CV.pm",
+                     "lib/Acme/Flat/FM.pm",
+                     "lib/Acme/Flat/GV.pm",
+                     "lib/Acme/Flat/HV.pm",
+                     "lib/Acme/Flat/IO.pm",
+                     "lib/Acme/Flat/IV.pm",
+                     "lib/Acme/Flat/NV.pm",
+                     "lib/Acme/Flat/PV.pm",
+                     "lib/Acme/Flat/PVIV.pm",
+                     "lib/Acme/Flat/PVLV.pm",
+                     "lib/Acme/Flat/PVMG.pm",
+                     "lib/Acme/Flat/PVNV.pm",
+                     "lib/Acme/Flat/REGEXP.pm",
+                     "lib/Acme/Flat/SV.pm"
                   ],
                   "path_translator" : "base64_filter",
                   "prefix" : "t/00-compile",
