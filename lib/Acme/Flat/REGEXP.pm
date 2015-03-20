@@ -7,7 +7,7 @@ package Acme::Flat::REGEXP;
 # ABSTRACT: A Regular Expression Value
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
-use parent 'Acme::Flat::REGEXP';
+use parent 'Acme::Flat::PVMG';
 use Class::Tiny;
 
 1;
