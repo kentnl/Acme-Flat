@@ -6,6 +6,8 @@ package Acme::Flat::PVNV;
 
 # ABSTRACT: A Value with Float, Integer, and String Parts
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent qw( Acme::Flat::PVIV Acme::Flat::NV );
 use Class::Tiny;
