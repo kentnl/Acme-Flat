@@ -6,6 +6,8 @@ package Acme::Flat::IV;
 
 # ABSTRACT: An Integer Value
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use parent 'Acme::Flat::SV';

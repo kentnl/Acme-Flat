@@ -6,6 +6,8 @@ package Acme::Flat::FM;
 
 # ABSTRACT: A Form Metadata container
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent 'Acme::Flat::CV';
 use Class::Tiny;

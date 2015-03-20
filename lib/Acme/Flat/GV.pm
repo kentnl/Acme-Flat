@@ -6,6 +6,8 @@ package Acme::Flat::GV;
 
 # ABSTRACT: A Glob Value
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use parent 'Acme::Flat::PVMG';

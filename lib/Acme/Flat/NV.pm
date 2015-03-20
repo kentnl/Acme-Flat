@@ -6,6 +6,8 @@ package Acme::Flat::NV;
 
 # ABSTRACT: A Numeric Value ( Float/Double )
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use parent 'Acme::Flat::SV';

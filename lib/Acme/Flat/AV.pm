@@ -6,6 +6,8 @@ package Acme::Flat::AV;
 
 # ABSTRACT: An Array Value
 
+our $VERSION = '0.001000';
+
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent 'Acme::Flat::PVMG';
 use Class::Tiny;
