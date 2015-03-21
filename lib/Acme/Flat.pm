@@ -37,7 +37,7 @@ no more than stub classes to represent each C<OP>, each with descriptions.
 
 But it is hoped alone that having a description for each C<OP> gives some improvement on its own.
 
-=head1 NAME
+=head1 NAMING
 
 The name is an approximation of
 
