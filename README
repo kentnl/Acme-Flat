@@ -4,7 +4,7 @@ This module is mostly a learning experiment to help me understand the
 mechanics behind perl's "B" internals, and hopefully making more
 friendly documentation for "B" components in the process.
 
-At present, it only contains the implemented heirachy present in
+At present, it only contains the implemented hierarchy present in
 ">5.18", with no more than stub classes to represent each "OP", each
 with descriptions.
 
