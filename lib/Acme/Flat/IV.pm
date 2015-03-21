@@ -6,7 +6,7 @@ package Acme::Flat::IV;
 
 # ABSTRACT: An Integer Value
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 

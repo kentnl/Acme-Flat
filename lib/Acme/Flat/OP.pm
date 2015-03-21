@@ -6,7 +6,7 @@ package Acme::Flat::OP;
 
 # ABSTRACT: An Operation
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 

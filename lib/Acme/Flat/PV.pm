@@ -6,7 +6,7 @@ package Acme::Flat::PV;
 
 # ABSTRACT: A Pointer Value ( Generally, for strings )
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 

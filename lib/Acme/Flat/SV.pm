@@ -6,7 +6,7 @@ package Acme::Flat::SV;
 
 # ABSTRACT: A Scalar Value
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 

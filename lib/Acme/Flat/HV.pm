@@ -6,7 +6,7 @@ package Acme::Flat::HV;
 
 # ABSTRACT: A Hash Value
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 use parent 'Acme::Flat::PVMG';

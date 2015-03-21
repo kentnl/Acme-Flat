@@ -6,7 +6,7 @@ package Acme::Flat::FM;
 
 # ABSTRACT: A Form Metadata container
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 use parent 'Acme::Flat::CV';

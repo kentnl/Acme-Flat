@@ -6,7 +6,7 @@ package Acme::Flat::COP;
 
 # ABSTRACT: A State Operation (Control OP).
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # AUTHORITY
 
