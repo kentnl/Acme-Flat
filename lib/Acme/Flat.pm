@@ -32,6 +32,11 @@ This module is mostly a learning experiment to help me understand the mechanics
 behind perl's C<B> internals, and hopefully making more friendly documentation for C<B>
 components in the process.
 
+At present, it only contains the implemented heirachy present in C<< >5.18 >>, with
+no more than stub classes to represent each C<OP>, each with descriptions.
+
+But it is hoped alone that having a description for each C<OP> gives some improvement on its own.
+
 =head1 AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
