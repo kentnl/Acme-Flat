@@ -63,7 +63,7 @@ I fully intend to capitalize on that name however in the event that:
 However, due to L<<
 C<#3> being now required to appease PAUSE Indexing rules
 |http://www.dagolden.com/index.php/2414/this-distribution-name-can-only-be-used-by-users-with-permission/
->>
+>>, it seems unlikely C<Acme::♭> will exist in the near future.
 
 =head1 AUTHOR
 
