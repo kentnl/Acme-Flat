@@ -34,7 +34,7 @@ version 0.001000
   print "Hello World"
 
   # <$> const(PV "Hello World") s # SVOP,   op = OP_CONST, embedded SV = "Hello World"
-  # <@> print vK                  # LISTOP, op = OP_PRINT 
+  # <@> print vK                  # LISTOP, op = OP_PRINT
 
 
   sub { 42 }->()
