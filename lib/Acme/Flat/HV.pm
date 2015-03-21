@@ -6,7 +6,7 @@ package Acme::Flat::HV;
 
 # ABSTRACT: A Hash Value
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent 'Acme::Flat::PVMG';
@@ -26,7 +26,7 @@ Acme::Flat::HV - A Hash Value
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 AUTHOR
 

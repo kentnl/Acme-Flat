@@ -20,85 +20,85 @@ name: Acme-Flat
 provides:
   Acme::Flat:
     file: lib/Acme/Flat.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::AV:
     file: lib/Acme/Flat/AV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::BINOP:
     file: lib/Acme/Flat/BINOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::COP:
     file: lib/Acme/Flat/COP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::CV:
     file: lib/Acme/Flat/CV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::FM:
     file: lib/Acme/Flat/FM.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::GV:
     file: lib/Acme/Flat/GV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::HV:
     file: lib/Acme/Flat/HV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::IO:
     file: lib/Acme/Flat/IO.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::IV:
     file: lib/Acme/Flat/IV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::LISTOP:
     file: lib/Acme/Flat/LISTOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::LOOP:
     file: lib/Acme/Flat/LOOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::METHOP:
     file: lib/Acme/Flat/METHOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::NV:
     file: lib/Acme/Flat/NV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::OP:
     file: lib/Acme/Flat/OP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PADOP:
     file: lib/Acme/Flat/PADOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PMOP:
     file: lib/Acme/Flat/PMOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PV:
     file: lib/Acme/Flat/PV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PVIV:
     file: lib/Acme/Flat/PVIV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PVLV:
     file: lib/Acme/Flat/PVLV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PVMG:
     file: lib/Acme/Flat/PVMG.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PVNV:
     file: lib/Acme/Flat/PVNV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::PVOP:
     file: lib/Acme/Flat/PVOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::REGEXP:
     file: lib/Acme/Flat/REGEXP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::SV:
     file: lib/Acme/Flat/SV.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::SVOP:
     file: lib/Acme/Flat/SVOP.pm
-    version: '0.001000'
+    version: '0.001001'
   Acme::Flat::UNOP:
     file: lib/Acme/Flat/UNOP.pm
-    version: '0.001000'
+    version: '0.001001'
 requires:
   Class::Tiny: '0'
   parent: '0'
@@ -109,7 +109,7 @@ resources:
   bugtracker: https://github.com/kentnl/Acme-Flat/issues
   homepage: https://github.com/kentnl/Acme-Flat
   repository: https://github.com/kentnl/Acme-Flat.git
-version: '0.001000'
+version: '0.001001'
 x_BuiltWith:
   external_file: misc/built_with.json
 x_Dist_Zilla:
@@ -490,7 +490,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: 0.001000-source
+          tag: 0.001001-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -544,7 +544,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: 0
-          tag: '0.001000'
+          tag: '0.001001'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

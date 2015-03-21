@@ -6,7 +6,7 @@ package Acme::Flat::UNOP;
 
 # ABSTRACT: A Unary Operation
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -27,7 +27,7 @@ Acme::Flat::UNOP - A Unary Operation
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 AUTHOR
 

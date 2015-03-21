@@ -6,7 +6,7 @@ package Acme::Flat::SV;
 
 # ABSTRACT: A Scalar Value
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -26,7 +26,7 @@ Acme::Flat::SV - A Scalar Value
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 AUTHOR
 

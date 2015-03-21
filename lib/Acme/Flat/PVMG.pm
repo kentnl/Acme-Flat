@@ -6,7 +6,7 @@ package Acme::Flat::PVMG;
 
 # ABSTRACT: A Value with Magic
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent qw( Acme::Flat::PVNV );
@@ -26,7 +26,7 @@ Acme::Flat::PVMG - A Value with Magic
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 AUTHOR
 

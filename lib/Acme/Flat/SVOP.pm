@@ -6,7 +6,7 @@ package Acme::Flat::SVOP;
 
 # ABSTRACT: An Operation with a static embedded SV.
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -27,7 +27,7 @@ Acme::Flat::SVOP - An Operation with a static embedded SV.
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 EXAMPLES
 

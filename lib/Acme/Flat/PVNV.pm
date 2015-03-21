@@ -6,7 +6,7 @@ package Acme::Flat::PVNV;
 
 # ABSTRACT: A Value with Float, Integer, and String Parts
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use parent qw( Acme::Flat::PVIV Acme::Flat::NV );
@@ -26,7 +26,7 @@ Acme::Flat::PVNV - A Value with Float, Integer, and String Parts
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 AUTHOR
 
