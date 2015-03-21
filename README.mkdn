@@ -12,6 +12,31 @@ This module is mostly a learning experiment to help me understand the mechanics
 behind perl's `B` internals, and hopefully making more friendly documentation for `B`
 components in the process.
 
+At present, it only contains the implemented hierarchy present in `>5.18`, with
+no more than stub classes to represent each `OP`, each with descriptions.
+
+But it is hoped alone that having a description for each `OP` gives some improvement on its own.
+
+# NAMING
+
+The name is an approximation of
+
+    Acme::♭
+
+Which was a cutesy way of saying `B` without saying `B`
+
+Alas, `♭` is character `U+266d`, a _Symbol_, not an `AlphaNumeric` included in the
+`XID_Start` or `XID_Continue` Regular Expression ranges.
+
+I fully intend to capitalize on that name however in the event that:
+
+- 1. MooseX::Types::Perl::DistName allows symbols in distribution names.
+- 2. PAUSE itself is proven to accept them.
+- 3. Perl itself supports such a character in identifiers
+
+However, due to [`#3` being now required to appease PAUSE Indexing rules
+](http://www.dagolden.com/index.php/2414/this-distribution-name-can-only-be-used-by-users-with-permission/), it seems unlikely `Acme::♭` will exist in the near future.
+
 # AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
