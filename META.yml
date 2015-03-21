@@ -24,6 +24,12 @@ provides:
   Acme::Flat::AV:
     file: lib/Acme/Flat/AV.pm
     version: '0.001000'
+  Acme::Flat::BINOP:
+    file: lib/Acme/Flat/BINOP.pm
+    version: '0.001000'
+  Acme::Flat::COP:
+    file: lib/Acme/Flat/COP.pm
+    version: '0.001000'
   Acme::Flat::CV:
     file: lib/Acme/Flat/CV.pm
     version: '0.001000'
@@ -42,8 +48,26 @@ provides:
   Acme::Flat::IV:
     file: lib/Acme/Flat/IV.pm
     version: '0.001000'
+  Acme::Flat::LISTOP:
+    file: lib/Acme/Flat/LISTOP.pm
+    version: '0.001000'
+  Acme::Flat::LOOP:
+    file: lib/Acme/Flat/LOOP.pm
+    version: '0.001000'
+  Acme::Flat::METHOP:
+    file: lib/Acme/Flat/METHOP.pm
+    version: '0.001000'
   Acme::Flat::NV:
     file: lib/Acme/Flat/NV.pm
+    version: '0.001000'
+  Acme::Flat::OP:
+    file: lib/Acme/Flat/OP.pm
+    version: '0.001000'
+  Acme::Flat::PADOP:
+    file: lib/Acme/Flat/PADOP.pm
+    version: '0.001000'
+  Acme::Flat::PMOP:
+    file: lib/Acme/Flat/PMOP.pm
     version: '0.001000'
   Acme::Flat::PV:
     file: lib/Acme/Flat/PV.pm
@@ -60,11 +84,20 @@ provides:
   Acme::Flat::PVNV:
     file: lib/Acme/Flat/PVNV.pm
     version: '0.001000'
+  Acme::Flat::PVOP:
+    file: lib/Acme/Flat/PVOP.pm
+    version: '0.001000'
   Acme::Flat::REGEXP:
     file: lib/Acme/Flat/REGEXP.pm
     version: '0.001000'
   Acme::Flat::SV:
     file: lib/Acme/Flat/SV.pm
+    version: '0.001000'
+  Acme::Flat::SVOP:
+    file: lib/Acme/Flat/SVOP.pm
+    version: '0.001000'
+  Acme::Flat::UNOP:
+    file: lib/Acme/Flat/UNOP.pm
     version: '0.001000'
 requires:
   Class::Tiny: '0'
@@ -227,20 +260,31 @@ x_Dist_Zilla:
           file:
             - lib/Acme/Flat.pm
             - lib/Acme/Flat/AV.pm
+            - lib/Acme/Flat/BINOP.pm
+            - lib/Acme/Flat/COP.pm
             - lib/Acme/Flat/CV.pm
             - lib/Acme/Flat/FM.pm
             - lib/Acme/Flat/GV.pm
             - lib/Acme/Flat/HV.pm
             - lib/Acme/Flat/IO.pm
             - lib/Acme/Flat/IV.pm
+            - lib/Acme/Flat/LISTOP.pm
+            - lib/Acme/Flat/LOOP.pm
+            - lib/Acme/Flat/METHOP.pm
             - lib/Acme/Flat/NV.pm
+            - lib/Acme/Flat/OP.pm
+            - lib/Acme/Flat/PADOP.pm
+            - lib/Acme/Flat/PMOP.pm
             - lib/Acme/Flat/PV.pm
             - lib/Acme/Flat/PVIV.pm
             - lib/Acme/Flat/PVLV.pm
             - lib/Acme/Flat/PVMG.pm
             - lib/Acme/Flat/PVNV.pm
+            - lib/Acme/Flat/PVOP.pm
             - lib/Acme/Flat/REGEXP.pm
             - lib/Acme/Flat/SV.pm
+            - lib/Acme/Flat/SVOP.pm
+            - lib/Acme/Flat/UNOP.pm
           path_translator: base64_filter
           prefix: t/00-compile
           skip: []
