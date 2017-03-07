@@ -1,7 +1,12 @@
 Release history for Acme-Flat
 
 {{$NEXT}}
+ - Bugfix: fix test failure with -Ddefault_inc_excludes_dot
+
+ [Dependencies::Stats]
+ - Dependencies changed since 0.001000, see misc/*.deps* for details
+ - develop: +5 ↑2 -1 (suggests: ↑2)
+ - test: ↓1
 
 0.001000 2015-03-21T04:48:25Z 3b79bbd
  - First version.
-
