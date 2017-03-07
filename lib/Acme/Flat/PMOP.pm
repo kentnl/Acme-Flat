@@ -6,7 +6,7 @@ package Acme::Flat::PMOP;
 
 # ABSTRACT: A Regexp (Pattern Matching) Operation
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -27,7 +27,7 @@ Acme::Flat::PMOP - A Regexp (Pattern Matching) Operation
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 AUTHOR
 

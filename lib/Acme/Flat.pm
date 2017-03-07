@@ -4,7 +4,7 @@ use warnings;
 
 package Acme::Flat;
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # ABSTRACT: A Pure Perl reimplementation of B Internals
 
@@ -24,7 +24,7 @@ Acme::Flat - A Pure Perl reimplementation of B Internals
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 DESCRIPTION
 

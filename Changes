@@ -1,5 +1,7 @@
 Release history for Acme-Flat
 
+0.001002 2017-03-07T15:36:52Z c69abcb
+
 0.001001 2017-03-07T15:34:24Z d6f7869
  - Bugfix: fix test failure with -Ddefault_inc_excludes_dot
 

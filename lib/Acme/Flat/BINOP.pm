@@ -6,7 +6,7 @@ package Acme::Flat::BINOP;
 
 # ABSTRACT: A Binary Operation
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -27,7 +27,7 @@ Acme::Flat::BINOP - A Binary Operation
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 AUTHOR
 

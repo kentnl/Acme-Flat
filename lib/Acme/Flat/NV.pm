@@ -6,7 +6,7 @@ package Acme::Flat::NV;
 
 # ABSTRACT: A Numeric Value ( Float/Double )
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -27,7 +27,7 @@ Acme::Flat::NV - A Numeric Value ( Float/Double )
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 AUTHOR
 
