@@ -4,7 +4,7 @@ Acme::Flat - A Pure Perl reimplementation of B Internals
 
 # VERSION
 
-version 0.001001
+version 0.001002
 
 # DESCRIPTION
 
