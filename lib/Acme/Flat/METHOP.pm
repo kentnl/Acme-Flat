@@ -6,7 +6,7 @@ package Acme::Flat::METHOP;
 
 # ABSTRACT: A Method Call Operation
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 

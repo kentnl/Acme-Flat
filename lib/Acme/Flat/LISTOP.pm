@@ -6,7 +6,7 @@ package Acme::Flat::LISTOP;
 
 # ABSTRACT: A List Operation
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 

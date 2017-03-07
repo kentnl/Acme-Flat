@@ -6,7 +6,7 @@ package Acme::Flat::PVIV;
 
 # ABSTRACT: A Value with both String and Integer Parts
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 use parent qw( Acme::Flat::PV Acme::Flat::IV );

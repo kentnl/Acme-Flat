@@ -6,7 +6,7 @@ package Acme::Flat::CV;
 
 # ABSTRACT: A Code Value
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 use parent 'Acme::Flat::PVMG';

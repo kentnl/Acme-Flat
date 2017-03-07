@@ -6,7 +6,7 @@ package Acme::Flat::PVOP;
 
 # ABSTRACT: An Operator with an embedded C Pointer
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 

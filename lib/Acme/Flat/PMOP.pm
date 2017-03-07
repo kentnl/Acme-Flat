@@ -6,7 +6,7 @@ package Acme::Flat::PMOP;
 
 # ABSTRACT: A Regexp (Pattern Matching) Operation
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 

@@ -6,7 +6,7 @@ package Acme::Flat::AV;
 
 # ABSTRACT: An Array Value
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 use parent 'Acme::Flat::PVMG';

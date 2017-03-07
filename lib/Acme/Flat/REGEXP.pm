@@ -6,7 +6,7 @@ package Acme::Flat::REGEXP;
 
 # ABSTRACT: A Regular Expression Value
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 use parent 'Acme::Flat::PVMG';

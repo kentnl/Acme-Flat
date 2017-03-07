@@ -6,7 +6,7 @@ package Acme::Flat::PVLV;
 
 # ABSTRACT: A Special Magic LValue value
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # AUTHORITY
 use parent 'Acme::Flat::GV';
