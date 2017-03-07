@@ -1,2 +1,3 @@
-.build
-Acme-Flat-*
+/.build
+/Acme-Flat-*
+/tmp/
